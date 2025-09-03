@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivo o Negativo</title>
+
+    <!--  TITULO: LERO LERO CANDELERO
+      ENTRADA: LERO LERO
+      SALIDA: CANDELERO
+      PROCESO: YA SABE -->
+</head>
+<body>
+    <h2>Ingrese un número</h2>
+
+    <input type="number" id="numero">
+    <button onclick="verificar()">Verificar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function verificar() {
+            let numero = parseFloat(document.getElementById("numero").value);
+            let resultado = "";
+
+            if (numero > 0) {
+                resultado = "El número es positivo.";
+            } else if (numero < 0) {
+                resultado = "El número es negativo.";
+            } else if (numero === 0) {
+                resultado = "El número es cero.";
+            } else {
+                resultado = "Por favor, ingrese un número válido.";
+            }
+
+            document.getElementById("resultado").innerText = resultado;
+        }
+    </script>
+</body>
+</html>
