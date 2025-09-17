@@ -9,6 +9,7 @@
 
 #Proceso: Pide el nombre y el apellido de la persona, extrae la primera letra de el nombre y el apellido. Imprime en mayuscula las iniciales.
 
+#Autor: Belman Marin
 
 
 # Pedir nombre y apellido
