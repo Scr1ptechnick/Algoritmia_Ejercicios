@@ -1,3 +1,7 @@
+#Nombre del Proceso
+#Entrada
+#Salida
+
 numero1 = int(input("ingresa un numero......:"))
 #ahora vamos ha hacer la funcion SI para comparar
 if numero1 % 2 == 0:
